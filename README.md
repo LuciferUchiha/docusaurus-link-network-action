@@ -4,10 +4,16 @@ This action creates a network graph for all links between doc pages in a docusau
 
 ## Inputs
 
-## `who-to-greet`
+### `who-to-greet`
 
 **Required** The name of the person to greet. Default `"World"`.
 
 uses: actions/hello-world-javascript-action@v1.1
 with:
   who-to-greet: 'Mona the Octocat'
+
+## Outputs
+
+### `time`
+
+The time we greeted you.
